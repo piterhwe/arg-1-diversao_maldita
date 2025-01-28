@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Zodiac Font;
+    src: url(ZodiacFont-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    gap: 0;
+    background-color: black;
+    max-width: 100dvw;
+    max-height: 98dvh;
+}
+
+.login_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-text{
+    justify-self: center;
+    color: white;
+}
+
+form{
+    display: grid;
+    gap: 10px;
+}
+
+input[type="text" i] {
+    padding: 10px;
+    color: white;
+}
+
+input[type="password" i] {
+    padding: 10px;
+    color: white;
+}
+
+.login{
+    border-color: white;
+    border-radius: 5px;
+}
+
+.pw{
+    border-color: white;
+    border-radius: 5px;
+}
+
+.button-submit{
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.documento{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.crypt_container{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    width: 1110px;
+    background: transparent;
+}
+
+.crypt{
+    font-family: Zodiac Font;
+    color: white;
+}

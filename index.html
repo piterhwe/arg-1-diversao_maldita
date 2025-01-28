@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login_box">
+        <form>
+            <h3 class="login-text">A Verdade</h3>
+            <input type="text" placeholder="Usuário" id="login" class="login">
+            <input type="password" placeholder="Senha" id="pw" class="pw">
+            <input type="submit" onclick="logar(); return false" class="button-submit">
+        </form>
+    </div>
+    <div class="crypt_container">
+        <a class="crypt">
+            aquele que usa, sempre foi o codenome do assassino astral.
+            <br>
+            os dias que o assassino astral escreveu, permite a passagem.
+        </a>
+    </div>
+
+    <script>
+
+        function logar(){
+            var login = document.getElementById('login').value;
+            var pw = document.getElementById('pw').value;
+
+            if(login == "zodiaco" && pw == "1 de agosto de 1969"){
+                location.href = "document.html";
+            }
+        }
+
+    </script>
+</body>
+</html>
